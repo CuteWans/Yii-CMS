@@ -15,6 +15,7 @@ use yii\helpers\Url;
 use frontend\widgets\MenuView;
 
 AppAsset::register($this);
+$this->title = '奴才驾到 CMS';
 
 ?>
 <?php $this->beginPage() ?>
@@ -112,17 +113,17 @@ AppAsset::register($this);
     <?= $content ?>
 </section>
 
-<div class="branding branding-black">
+<!-- <div class="branding branding-black">
     <div class="container_f">
         <h2><?= Yii::t('frontend', 'Effective,Professional,Conform to SEO') ?></h2>
         <a class="btn btn-lg" href="http://www.feehi.com/page/contact" target="_blank"><?= Yii::t('frontend', 'Contact us') ?></a>
     </div>
-</div>
+</div> -->
 
 <footer class="footer">
     <div class="footer-inner">
         <p>
-            <a href="http://www.feehi.com/" title="Feehi CMS">Feehi CMS</a> <?= Yii::t('frontend', 'Copyright, all rights reserved') ?> © 2015-<?=date('Y')?>&nbsp;&nbsp;
+            <a href="http://www.feehi.com/" title="Our CMS">Our CMS</a> <?= Yii::t('frontend', 'Copyright, all rights reserved') ?> © 2015-<?=date('Y')?>&nbsp;&nbsp;
             <select onchange="location.href=this.options[this.selectedIndex].value;" style="height: 30px">
                 <?php
                 foreach (Yii::$app->params['supportLanguages'] as $language => $languageDescription){
@@ -136,7 +137,7 @@ AppAsset::register($this);
                 ?>
             </select>
         </p>
-        <p><?=Yii::$app->feehi->website_icp?> Powered by Feehi CMS <a title="飞嗨" target="_blank" href="http://blog.feehi.com">飞嗨</a></p>
+        <p><?=Yii::$app->feehi->website_icp?> Powered by Our CMS <a title="奴才驾到" target="_blank" href="http://blog.feehi.com">奴才驾到</a></p>
     </div>
 </footer>
 

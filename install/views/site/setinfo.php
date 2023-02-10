@@ -94,7 +94,7 @@ $this->title = Yii::t('install', 'Fill Info');
                     </tr>
                     <tr>
                         <td class="text-left"><?= Yii::t('install', 'Title') ?>：</td>
-                        <td><input type="text" name="sitename" value="Feehi CMS" class="input"></td>
+                        <td><input type="text" name="sitename" value="Our CMS" class="input"></td>
                         <td>
                             <div id="js-install-tip-sitename"></div>
                         </td>

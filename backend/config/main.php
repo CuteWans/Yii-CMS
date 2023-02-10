@@ -62,7 +62,7 @@ return [
                     ],
                     'message' => [
                         'to' => ['alert1@xxx.com', 'alert2@xxx.com'],//your receive error log email addresses
-                        'subject' => '来自 Feehi CMS 后台的新日志消息',
+                        'subject' => '来自 Our CMS 后台的新日志消息',
                     ],
                 ],
             ],

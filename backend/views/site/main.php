@@ -120,7 +120,7 @@ $this->registerCss("
                 <div class="ibox-content no-padding">
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <span class="badge badge-primary">&nbsp;&nbsp;</span><strong>Feehi CMS</strong>: <?= Yii::$app->getVersion() ?>
+                            <span class="badge badge-primary">&nbsp;&nbsp;</span><strong>Our CMS</strong>: <?= Yii::$app->getVersion() ?>
                         </li>
                         <li class="list-group-item ">
                             <span class="badge badge-info">&nbsp;&nbsp;</span> <strong>Web Server</strong>: <?= $info['OPERATING_ENVIRONMENT'] ?>

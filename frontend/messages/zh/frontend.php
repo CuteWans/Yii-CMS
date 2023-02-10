@@ -78,10 +78,10 @@ return [
     'Follow Wechat' => '微信公众号',
     'Join group' => '加群啦',
     'Official QQ group - main' => '官方QQ群-主群',
-    'FeehiCMS official QQ group number: {number}' => '飞嗨官方QQ群-主群 群号：{number}，欢迎大家！',
-    'New generation CMS FeehiCMS' => 'Feehi cms 新一代内容管理系统',
+    'FeehiCMS official QQ group number: {number}' => '奴才驾到官方QQ群-主群 群号：{number}，欢迎大家！',
+    'New generation CMS FeehiCMS' => 'Our CMS 新一代内容管理系统',
     'Highly recommend' => '吐血推荐',
-    'FeehiCMS based on yii2, support php7, makes website more excellent...' => 'Feehi cms是一款基于优秀php框架yii2开发的新一代cms系统，使用了php最新版本(php7)带来的新特性，会让网站显得内涵而出色...',
+    'FeehiCMS based on yii2, support php7, makes website more excellent...' => 'Our CMS是一款基于优秀php框架yii2开发的新一代cms系统，使用了php最新版本(php7)带来的新特性，会让网站显得内涵而出色...',
     'Send email at someone replied' => '有人回复时邮件通知我',
     /*article*/
 

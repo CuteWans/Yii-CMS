@@ -32,7 +32,7 @@ use frontend\widgets\SNSView;
             <p><?=Yii::t('frontend', 'FeehiCMS official QQ group number: {number}', ['number'=>'258780872'])?>
                 <br>
                 <br>
-                <img border="0" src="<?=Yii::$app->getRequest()->getBaseUrl()?>/static/images/group.png" alt="feehi cms" title="feehi cms">
+                <img border="0" src="<?=Yii::$app->getRequest()->getBaseUrl()?>/static/images/group.png" alt="Our CMS" title="Our CMS">
             </p>
         </a>
     </div> -->

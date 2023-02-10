@@ -11,6 +11,7 @@
 
 use backend\assets\AppAsset;
 use yii\helpers\Html;
+// $this->title = '奴才驾到 CMS';
 
 AppAsset::register($this);
 ?>

@@ -8,23 +8,23 @@
 
 use yii\helpers\Url;
 
-$this->title = Yii::t('install', 'FeehiCMS license agreement');
+$this->title = Yii::t('install', 'OurCMS license agreement');
 ?>
 <div class="section">
     <div class="main">
-        <pre class="agreement">Feehi CMS软件使用协议
+        <pre class="agreement">Our CMS软件使用协议
 
-版权所有 ©2015-<?= date('Y') ?>,Feehi CMS开源社区
+版权所有 ©2015-<?= date('Y') ?>,Our CMS开源社区
 
-感谢您选择Feehi CMS内容管理框架, 希望我们的产品能够帮您把网站发展的更快、更好、更强！
+感谢您选择Our CMS内容管理框架, 希望我们的产品能够帮您把网站发展的更快、更好、更强！
 
-Feehi CMS遵循Apache2开源协议发布，并提供免费使用。
+Our CMS遵循Apache2开源协议发布，并提供免费使用。
 
-Feehi CMS建站系统由飞嗨(官网http://blog.feehi.com)发起并开源发布。
-飞嗨包含以下网站：
-飞嗨官网： http://blog.feehi.com
-飞嗨分享：http://www.feehi.com
-飞嗨短网址：http://d.feehi.com
+Our CMS建站系统由奴才驾到(官网http://blog.feehi.com)发起并开源发布。
+奴才驾到包含以下网站：
+奴才驾到官网： http://blog.feehi.com
+奴才驾到分享：http://www.feehi.com
+奴才驾到短网址：http://d.feehi.com
 
 Apache Licence是著名的非盈利开源组织Apache采用的协议。
 该协议鼓励代码共享和尊重原作者的著作权，允许代码修改，再作为开源或商业软件发布。需要满足的条件：
@@ -48,9 +48,9 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
-Feehi CMS免责声明
-  1、使用Feehi CMS构建的网站的任何信息内容以及导致的任何版权纠纷和法律争议及后果，Feehi CMS官方不承担任何责任。
-  2、您一旦安装使用Feehi CMS，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时，受到相关的约束和限制。</pre>
+Our CMS免责声明
+  1、使用Our CMS构建的网站的任何信息内容以及导致的任何版权纠纷和法律争议及后果，Our CMS官方不承担任何责任。
+  2、您一旦安装使用Our CMS，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时，受到相关的约束和限制。</pre>
     </div>
     <div class="bottom text-center">
         <a href="<?= Url::to(['accept']) ?>" class="btn btn-primary"><?= Yii::t('install', 'Decline') ?></a>

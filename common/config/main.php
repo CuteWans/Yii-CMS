@@ -11,8 +11,8 @@ return [
         4. main-local.php
         5. main.php
     */
-    'name' => 'Feehi CMS',
-    'version' => '2.1.1',
+    'name' => '奴才驾到 CMS',
+    'version' => '1.0.0',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -75,7 +75,7 @@ return [
             ],
             'messageConfig' => [
                 'charset' => 'UTF-8',
-                'from' => ['admin@xxx.com' => 'Feehi CMS robot ']
+                'from' => ['admin@xxx.com' => 'Our CMS robot ']
             ],
         ],
         'feehi' => [

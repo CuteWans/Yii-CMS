@@ -30,6 +30,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 $this->title = $model->title;
+Yii::$app->feehi->website_title='奴才驾到 CMS';
 
 $categoryName = $model->category ? $model->category->name : Yii::t('app', 'UnClassified');
 $categoryAlias = $model->category ? $model->category->alias : Yii::t('app', 'UnClassified');

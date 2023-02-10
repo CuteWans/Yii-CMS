@@ -46,7 +46,7 @@ return [
                     ],
                     'message' => [
                         'to' => ['alert1@xxx.com', 'alert2@xxx.com'],
-                        'subject' => '来自 Feehi CMS 前台的新日志消息',
+                        'subject' => '来自 Our CMS 前台的新日志消息',
                     ],
                 ],
             ],

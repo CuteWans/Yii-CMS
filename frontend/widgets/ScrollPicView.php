@@ -27,7 +27,7 @@ class ScrollPicView extends \yii\base\Widget
     public function run()
     {
         parent::run();
-        $lis = '';
+        $lis ='';
         foreach ($this->banners as $banner) {
             $lis .= str_replace(['{link_url}', '{img_url}', '{target}'], [$banner['link'], $banner['img'], $banner['target']], $this->liTemplate);
         }

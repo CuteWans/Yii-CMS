@@ -26,9 +26,22 @@ use common\widgets\JsBlock;
 use frontend\assets\IndexAsset;
 use yii\data\ArrayDataProvider;
 
+$indexBanners= [
+    [
+        'img' =>'uploads/article/thumb/20230209180324_63e4c4ec33422.jpg',
+    ],
+    [
+        'img' =>'uploads/article/thumb/20230209180324_63e4c4ec33422.jpg',
+    ],
+    [
+        'img' =>'uploads/article/thumb/20230209180324_63e4c4ec33422.jpg',
+    ],
+];
+
 IndexAsset::register($this);
 $this->title = ( !empty($category) ? $category . " - " : "" ) . Yii::$app->feehi->website_title;
 ?>
+
 <div class="content-wrap">
     <div class="content">
         <div class="slick_bor">

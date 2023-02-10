@@ -232,7 +232,7 @@ class SiteController extends \yii\web\Controller
                     Yii::$app->getDb()->createCommand()->update(AdminUser::tableName(), $data, 'id = 1')->execute();
 
                     $model = Options::findOne(['name' => 'website_title']);
-                    $model->value = $request->post('sitename', 'Feehi CMS');
+                    $model->value = $request->post('sitename', 'Our CMS');
                     $model->save(false);
                     $model = Options::findOne(['name' => 'website_url']);
                     $model->value = $request->post('website_url', '');

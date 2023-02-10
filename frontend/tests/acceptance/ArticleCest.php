@@ -19,6 +19,6 @@ class ArticleCest
         $I->amOnPage(Url::toRoute(['/article/view', 'id'=>22]));
         $I->see('转载请注明');
 
-        $I->seeLink('Feehi CMS');
+        $I->seeLink('Our CMS');
     }
 }

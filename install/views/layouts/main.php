@@ -33,7 +33,7 @@ AppAsset::register($this);
     </div>
     <?= $content ?>
     <div class="footer">
-        &copy; 2015-<?= date('Y') ?> <a href="http://blog.feehi.com" target="_blank">Feehi</a> 飞嗨出品
+        &copy; <?= date('Y') ?> <a href="http://blog.feehi.com" target="_blank">Feehi</a> 奴才驾到出品
     </div>
 </div>
 <?php $this->endBody() ?>

@@ -785,7 +785,7 @@ class Tables extends BaseObject
             'rows' => [
                 [
                     '1',
-                    '飞嗨博客',
+                    '奴才驾到博客',
                     '',
                     'http://blog.feehi.com',
                     '_blank',
@@ -796,7 +796,7 @@ class Tables extends BaseObject
                 ],
                 [
                     '2',
-                    '飞嗨网',
+                    '奴才驾到网',
                     '',
                     'http://www.feehi.com',
                     '_blank',
@@ -962,7 +962,7 @@ class Tables extends BaseObject
                 [
                     '0',
                     'seo_keywords',
-                    '飞嗨,cms,yii2,php,feehi cms',
+                    '奴才驾到,cms,yii2,php,Our CMS',
                     '1',
                     '',
                     '0',
@@ -971,7 +971,7 @@ class Tables extends BaseObject
                 [
                     '0',
                     'seo_description',
-                    'Feehi CMS，最好的cms之一',
+                    'Our CMS，最好的cms之一',
                     '1',
                     '',
                     '0',
@@ -980,7 +980,7 @@ class Tables extends BaseObject
                 [
                     '0',
                     'website_title',
-                    'Feehi CMS',
+                    'Our CMS',
                     '1',
                     '',
                     '0',
