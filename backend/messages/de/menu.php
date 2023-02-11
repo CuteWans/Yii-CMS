@@ -15,7 +15,7 @@ return array (
   '日志' => 'Log',
   '角色' => 'Rollen',
   '管理员' => 'Admin-Benutzer',
-  '友情链接' => 'Freundlicher Link',
+  '仓库链接' => 'Freundlicher Link',
   '缓存' => 'Zwischenspeicher',
   '清除前台' => 'Frontend löschen',
   '清除后台' => 'Backend löschen',

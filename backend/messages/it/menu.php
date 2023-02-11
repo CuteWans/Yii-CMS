@@ -15,7 +15,7 @@ return array (
   '日志' => 'Login',
   '角色' => 'ruoli',
   '管理员' => 'Utenti amministratori',
-  '友情链接' => 'Collegamento amichevole',
+  '仓库链接' => 'Collegamento amichevole',
   '缓存' => 'nascondiglio',
   '清除前台' => 'Clear Frontend',
   '清除后台' => 'Cancella backend',

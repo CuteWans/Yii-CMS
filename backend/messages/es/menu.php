@@ -15,7 +15,7 @@ return array (
   '日志' => 'Iniciar sesión',
   '角色' => 'Roles',
   '管理员' => 'Usuarios administradores',
-  '友情链接' => 'Enlace amistoso',
+  '仓库链接' => 'Enlace amistoso',
   '缓存' => 'Cache',
   '清除前台' => 'Frontend claro',
   '清除后台' => 'Backend claro',

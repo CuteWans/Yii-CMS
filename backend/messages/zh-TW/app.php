@@ -233,7 +233,7 @@ return array (
   'Frontend Menus' => '前台菜單',
   'Administrators' => '管理員',
   'Roles' => '角色',
-  'Friendly Links' => '友情鏈接',
+  'Friendly Links' => '仓库鏈接',
   'Latest Comments' => '最新評論',
   'Only supported linux system' => '僅支持Linux系統',
   'Total' => '總共',

@@ -15,7 +15,7 @@ return array (
   '日志' => 'Journal',
   '角色' => 'Les rôles',
   '管理员' => 'Utilisateurs administrateurs',
-  '友情链接' => 'Lien amical',
+  '仓库链接' => 'Lien amical',
   '缓存' => 'Cache',
   '清除前台' => 'Effacer le frontend',
   '清除后台' => 'Effacer le backend',

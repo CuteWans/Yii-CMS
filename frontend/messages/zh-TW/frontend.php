@@ -34,7 +34,7 @@ return array (
   'Hot Recommends' => '熱門推薦',
   'Cloud Tags' => '雲標籤',
   'Email Subscribe' => '郵件訂閱',
-  'Friendly Links' => '友情鏈接',
+  'Friendly Links' => '仓库鏈接',
   'Latest Comments' => '最新評論',
   'Subscribe to the wonderful content' => '訂閱精彩內容',
   'Topics' => '個話題',

@@ -28,13 +28,13 @@ use yii\data\ArrayDataProvider;
 
 $indexBanners= [
     [
-        'img' =>'uploads/article/thumb/20230209180324_63e4c4ec33422.jpg',
+        'img' =>'static/images/3.jpg',
     ],
     [
-        'img' =>'uploads/article/thumb/20230209180324_63e4c4ec33422.jpg',
+        'img' =>'static/images/4.jpg',
     ],
     [
-        'img' =>'uploads/article/thumb/20230209180324_63e4c4ec33422.jpg',
+        'img' =>'static/images/5.jpg',
     ],
 ];
 

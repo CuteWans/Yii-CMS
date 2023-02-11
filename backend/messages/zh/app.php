@@ -274,7 +274,7 @@ return [
     'Frontend Menus' => '前台菜单',
     'Administrators' => '管理员',
     'Roles' => '角色',
-    'Friendly Links' => '友情链接',
+    'Friendly Links' => '仓库链接',
     'Latest Comments' => '最新评论',
     'Only supported linux system' => '仅支持Linux系统',
     'Total' => '总共',

@@ -15,7 +15,7 @@ return array (
   '日志' => 'Registro',
   '角色' => 'Funções',
   '管理员' => 'Usuários Admin',
-  '友情链接' => 'Link amigável',
+  '仓库链接' => 'Link amigável',
   '缓存' => 'Cache',
   '清除前台' => 'Limpar Frontend',
   '清除后台' => 'Limpar back-end',

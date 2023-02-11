@@ -31,7 +31,7 @@ class FriendlyLinkCest
     public function checkIndex(FunctionalTester $I)
     {
         $I->amOnPage(Url::toRoute('/friendly-link/index'));
-        $I->see('友情链接');
+        $I->see('仓库链接');
         $I->see("地址");
     }
 
@@ -39,7 +39,7 @@ class FriendlyLinkCest
     {
         $I->amOnPage(Url::toRoute('/friendly-link/index'));
         $I->click("a[title=编辑]");
-        $I->see("编辑友情链接");
+        $I->see("编辑仓库链接");
         $I->fillField("FriendlyLink[name]", '123');
         $I->submitForm("button[type=submit]", []);
         $I->click("a[title=编辑]");

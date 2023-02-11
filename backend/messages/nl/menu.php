@@ -15,7 +15,7 @@ return array (
   '日志' => 'Logboek',
   '角色' => 'Rollen',
   '管理员' => 'Admin-gebruikers',
-  '友情链接' => 'Vriendelijke link',
+  '仓库链接' => 'Vriendelijke link',
   '缓存' => 'Cache',
   '清除前台' => 'Frontend wissen',
   '清除后台' => 'Backend wissen',
