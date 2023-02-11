@@ -42,4 +42,13 @@ return [
     \common\services\BannerServiceInterface::ServiceName => [
         'class' => \common\services\BannerService::className(),
     ],
+    \common\services\MemberServiceInterface::ServiceName=>[
+        'class' => \common\services\MemberService::className(),
+    ],
+    \common\services\MemberServiceInterface::ServiceName=>[
+        'class' => \common\services\MemberService::className(),
+    ],
+    \common\services\MemberServiceInterface::ServiceName=>[
+        'class' => \common\services\MemberService::className(),
+    ],
 ];
