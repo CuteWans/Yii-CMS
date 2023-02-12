@@ -113,17 +113,10 @@ $this->title = '奴才驾到 CMS';
     <?= $content ?>
 </section>
 
-<!-- <div class="branding branding-black">
-    <div class="container_f">
-        <h2><?= Yii::t('frontend', 'Effective,Professional,Conform to SEO') ?></h2>
-        <a class="btn btn-lg" href="http://www.feehi.com/page/contact" target="_blank"><?= Yii::t('frontend', 'Contact us') ?></a>
-    </div>
-</div> -->
-
 <footer class="footer">
     <div class="footer-inner">
         <p>
-            <a href="http://www.feehi.com/" title="Our CMS">Our CMS</a> <?= Yii::t('frontend', 'Copyright, all rights reserved') ?> © 2015-<?=date('Y')?>&nbsp;&nbsp;
+            <a href="<?= Yii::$app->getHomeUrl() ?>" title="奴才驾到 CMS">奴才驾到 CMS</a> <?= Yii::t('frontend', 'Copyright, all rights reserved') ?> © <?=date('Y')?>&nbsp;&nbsp;
             <select onchange="location.href=this.options[this.selectedIndex].value;" style="height: 30px">
                 <?php
                 foreach (Yii::$app->params['supportLanguages'] as $language => $languageDescription){
@@ -137,7 +130,7 @@ $this->title = '奴才驾到 CMS';
                 ?>
             </select>
         </p>
-        <p><?=Yii::$app->feehi->website_icp?> Powered by Our CMS <a title="奴才驾到" target="_blank" href="http://blog.feehi.com">奴才驾到</a></p>
+        <p><?=Yii::$app->feehi->website_icp?> Powered by Our CMS <a title="奴才驾到" target="_blank" href="<?= Yii::$app->getHomeUrl() ?>">奴才驾到</a></p>
     </div>
 </footer>
 
