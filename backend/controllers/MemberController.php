@@ -54,12 +54,12 @@ class MemberController extends \yii\web\Controller
             ],
             'update' => [
                 'class' => UpdateAction::className(),
-                'primaryKeyIdentity' => 'member_uid',
+                // 'primaryKeyIdentity' => 'member_uid',
                 'doUpdate' => function($member_uid, $postData, $updateAction) use($service){
-                    return $service->update($member_uid, $postData);
+                    return $service->update($member_uid, $postData, ['scenario'=>'update']);
                 },
                 'data' => function($member_uid, $updateResultModel, $updateAction) use($service){
-                    $model = $updateResultModel === null ? $service->getDetail($member_uid) : $updateResultModel;
+                    $model = $updateResultModel === null ? $service->getDetail($member_uid, ['scenario'=>'update']) : $updateResultModel;
                     return [
                         'model' => $model,
                     ];
@@ -67,7 +67,7 @@ class MemberController extends \yii\web\Controller
             ],
             'delete' => [
                 'class' => DeleteAction::className(),
-                'primaryKeyIdentity' => 'member_uid',
+                // 'primaryKeyIdentity' => 'member_uid',
                 'doDelete' => function($member_uid, $deleteAction) use($service){
                     return $service->delete($member_uid);
                 },
@@ -80,7 +80,7 @@ class MemberController extends \yii\web\Controller
             ],
             'view-layer' => [
                 'class' => ViewAction::className(),
-                'primaryKeyIdentity' => 'member_uid',
+                // 'primaryKeyIdentity' => 'member_uid',
                 'data' => function($member_uid, $viewAction) use($service){
                     return [
                         'model' => $service->getDetail($member_uid),
@@ -89,4 +89,5 @@ class MemberController extends \yii\web\Controller
             ],
         ];
     }
+
 }

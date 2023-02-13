@@ -14,7 +14,7 @@ class MemberController extends \yii\web\Controller
     }
     public function actionLqx()
     {
-        $member = Member::find()->where(['member_uid'=>'1'])->all();
+        $member = Member::find()->where(['member_uid'=>'1'])->one();
 
         return $this->render('lqx', [
             'member' => $member,
@@ -22,6 +22,18 @@ class MemberController extends \yii\web\Controller
     }
     public function actionLsf()
     {
-        return $this->render('lsf');
+        $member = Member::find()->where(['member_uid'=>'2'])->one();
+
+        return $this->render('lsf', [
+            'member' => $member,
+        ]);
+    }
+    public function actionDy()
+    {
+        $member = Member::find()->where(['member_uid'=>'3'])->one();
+
+        return $this->render('dy', [
+            'member' => $member,
+        ]);
     }
 }

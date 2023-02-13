@@ -6,7 +6,7 @@ use backend\grid\ActionColumn;
 use backend\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel common\models\MemberSearch */
+/* @var $searchModel backend\models\search\MemberSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('app', 'Members');

@@ -4,7 +4,7 @@ namespace common\services;
 * This is the template for generating CRUD service class of the specified model.
 */
 
-use common\models\MemberSearch;
+use backend\models\search\MemberSearch;
 use common\models\Member;
 
 class MemberService extends Service implements MemberServiceInterface{

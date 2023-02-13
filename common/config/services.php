@@ -51,4 +51,7 @@ return [
     \common\services\MemberServiceInterface::ServiceName=>[
         'class' => \common\services\MemberService::className(),
     ],
+    \common\services\MemberServiceInterface::ServiceName=>[
+        'class' => \common\services\MemberService::className(),
+    ],
 ];
