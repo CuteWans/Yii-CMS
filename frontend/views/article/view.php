@@ -132,7 +132,7 @@ ViewAsset::register($this);
                 <?= Html::activeHiddenInput($commentModel, 'aid', ['value' => $model->id]) ?>
                 <div class="comt-title" style="display: block;">
                     <div class="comt-avatar pull-left">
-                        <img src="https://secure.gravatar.com/avatar/" class="avatar avatar-108" height="50" width="50">
+                        <img src="static/images/comment-user-avatar.png" class="avatar avatar-108" height="50" width="50">
                     </div>
                     <div class="comt-author pull-left"><?php if (Yii::$app->getUser()->getIsGuest()) {
                             echo Yii::t('frontend', 'Guest');
@@ -201,7 +201,7 @@ ViewAsset::register($this);
                     <li class="comment even thread-even depth-1 byuser comment-author-admin bypostauthor"
                         id="comment-<?= $v['id'] ?>">
                         <div class="c-avatar">
-                            <img data-original="https://secure.gravatar.com/avatar/<?= md5($v['email']) ?>?s=50" class="avatar avatar-108" height="50" width="50" src="https://secure.gravatar.com/avatar/<?= md5($v['nickname']) ?>" style="display: block;">
+                            <img class="avatar avatar-108" height="50" width="50" src="static/images/comment-user-avatar.png" style="display: block;">
                             <div class="c-main" id="div-comment-<?= $v['id'] ?>">
                                 <?= $v['content'] ?><br>
                                 <div class="c-meta">
