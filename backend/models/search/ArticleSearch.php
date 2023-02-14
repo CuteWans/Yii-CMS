@@ -1,9 +1,11 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2017-03-15 21:16
+ /*
+ * @Description: 奴才驾到CMS
+ * @version: 1.0
+ * @Author: lqx lsf dy
+ * @Date: 2023-02-13 14:08:46
+ * @LastEditors: lqx lsf dy
+ * @LastEditTime: 2023-02-14 17:48:57
  */
 
 namespace backend\models\search;

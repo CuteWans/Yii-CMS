@@ -1,10 +1,13 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2017-09-04 22:59
+/*
+ * @Description: 奴才驾到CMS
+ * @version: 1.0
+ * @Author: lqx lsf dy
+ * @Date: 2023-02-13 14:08:47
+ * @LastEditors: lqx lsf dy
+ * @LastEditTime: 2023-02-14 18:09:49
  */
+ 
 
 namespace frontend\models\form;
 

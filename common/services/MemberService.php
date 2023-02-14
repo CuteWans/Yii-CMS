@@ -1,8 +1,14 @@
 <?php
+/*
+ * @Description: 奴才驾到CMS
+ * @version: 1.0
+ * @Author: lqx lsf dy
+ * @Date: 2023-02-13 19:06:37
+ * @LastEditors: lqx lsf dy
+ * @LastEditTime: 2023-02-14 18:06:21
+ */
 namespace common\services;
-/**
-* This is the template for generating CRUD service class of the specified model.
-*/
+ 
 
 use backend\models\search\MemberSearch;
 use common\models\Member;

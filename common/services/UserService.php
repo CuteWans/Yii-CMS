@@ -1,10 +1,13 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2020-01-29 16:54
+/*
+ * @Description: 奴才驾到CMS
+ * @version: 1.0
+ * @Author: lqx lsf dy
+ * @Date: 2023-02-13 14:08:47
+ * @LastEditors: lqx lsf dy
+ * @LastEditTime: 2023-02-14 18:07:09
  */
+ 
 
 namespace common\services;
 

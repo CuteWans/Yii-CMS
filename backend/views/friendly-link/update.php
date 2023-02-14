@@ -1,10 +1,13 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2016-03-21 14:32
+/*
+ * @Description: 奴才驾到CMS
+ * @version: 1.0
+ * @Author: lqx lsf dy
+ * @Date: 2023-02-13 14:08:46
+ * @LastEditors: lqx lsf dy
+ * @LastEditTime: 2023-02-14 17:56:44
  */
+ 
 
 use yii\helpers\Url;
 

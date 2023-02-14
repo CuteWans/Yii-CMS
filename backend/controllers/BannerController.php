@@ -1,10 +1,5 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2017-12-03 21:58
- */
+ 
 
 namespace backend\controllers;
 

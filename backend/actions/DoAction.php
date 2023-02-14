@@ -1,10 +1,5 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2020-04-03 09:50
- */
+ 
 namespace backend\actions;
 
 use Yii;

@@ -1,10 +1,13 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2018-01-22 17:23
+/*
+ * @Description: 奴才驾到CMS
+ * @version: 1.0
+ * @Author: lqx lsf dy
+ * @Date: 2023-02-13 14:08:46
+ * @LastEditors: lqx lsf dy
+ * @LastEditTime: 2023-02-14 10:00:44
  */
+ 
 namespace backend\behaviors;
 
 use backend\components\search\SearchEvent;
